@@ -1,1 +1,1 @@
-audio_play_sound(mus_second_sanctuary,0,true)
+audio_play_sound(mus_mansion,0,true)

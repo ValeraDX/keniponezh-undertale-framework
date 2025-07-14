@@ -8,8 +8,8 @@
   "name":"obj_solid",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Framework",
+    "path":"folders/Objects/Framework.yy",
   },
   "parentObjectId":null,
   "persistent":false,

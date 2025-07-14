@@ -12,8 +12,8 @@
   "name":"obj_mainkoro",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Framework",
+    "path":"folders/Objects/Framework.yy",
   },
   "parentObjectId":null,
   "persistent":false,

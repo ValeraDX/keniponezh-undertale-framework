@@ -20,3 +20,5 @@ enum accuracy{
 movement_accuracy = accuracy.Undertale
 
 disable_input = false
+
+depth = 0
