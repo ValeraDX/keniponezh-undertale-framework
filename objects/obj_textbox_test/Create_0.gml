@@ -1,1 +1,0 @@
-cooldown = 0 //it kept creating it lol i fucking hate gamedev

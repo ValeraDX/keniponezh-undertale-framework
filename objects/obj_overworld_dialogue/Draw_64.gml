@@ -22,6 +22,6 @@ c_white,
 draw_set_font(font_textbox_def)
 draw_text_transformed(text_x, text_y, "*",2,2,0)
 var get_text = string_copy(text[page],1,char_index)
-draw_text_transformed(text_x + 20 , text_y, get_text,2,2,0)
+draw_text_transformed(text_x + 32 , text_y, get_text,2,2,0)
 
 draw_text(128,32,string(char_delay))
