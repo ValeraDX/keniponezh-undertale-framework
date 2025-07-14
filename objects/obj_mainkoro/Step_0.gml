@@ -72,10 +72,16 @@ repeat(abs(vsp) * DELTA){
 
 // animations!
 if(!disable_input){
-    if(up) animdir = 3
-    if(left) animdir = 2
-    if(down) animdir = 1
-    if(right) animdir = 0
+	if (up & !array_contains(animarr, 3)) {array_push(animarr, 3)}
+	if (left & !array_contains(animarr, 2)) {array_push(animarr, 2)}
+	if (down & !array_contains(animarr, 1)){array_push(animarr, 1)}
+	if (right & !array_contains(animarr, 0)) {array_push(animarr, 0)}
+	
+	if (!up & array_contains(animarr, 3)){array_delete(animarr, array_get_index(animarr, 3), 1)}
+	if (!left & array_contains(animarr, 2)){array_delete(animarr, array_get_index(animarr, 2), 1)}
+	if (!down & array_contains(animarr, 1)){array_delete(animarr, array_get_index(animarr, 1), 1)}
+	if (!right & array_contains(animarr, 0)){array_delete(animarr, array_get_index(animarr, 0), 1)}
+	if (array_length(animarr)>0){animdir = animarr[0]}
 }
     
 switch (animdir){
