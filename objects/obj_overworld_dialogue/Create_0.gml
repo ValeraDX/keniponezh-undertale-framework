@@ -8,6 +8,8 @@ text[0] = ""
 
 text_lenght[0] = string_length(text[0])
 char_index = 0
-char_delay = floor(4 / DELTA) 
+char_delay = 2
+
+text_sound = snd_text
 
 alarm[0] = char_delay

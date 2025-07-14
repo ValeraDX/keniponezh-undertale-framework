@@ -53,6 +53,7 @@
     {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"id":{"name":"mus_second_sanctuary","path":"sounds/mus_second_sanctuary/mus_second_sanctuary.yy",},},
     {"id":{"name":"snd_text","path":"sounds/snd_text/snd_text.yy",},},
+    {"id":{"name":"snd_z","path":"sounds/snd_z/snd_z.yy",},},
     {"id":{"name":"spr_dialogue_box","path":"sprites/spr_dialogue_box/spr_dialogue_box.yy",},},
     {"id":{"name":"spr_frisk_down","path":"sprites/spr_frisk_down/spr_frisk_down.yy",},},
     {"id":{"name":"spr_frisk_hitbox","path":"sprites/spr_frisk_hitbox/spr_frisk_hitbox.yy",},},
