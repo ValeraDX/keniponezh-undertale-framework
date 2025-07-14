@@ -32,7 +32,7 @@ else{
 }
 
 if (hinput != 0 || vinput != 0){
-    if (movement_accuracy = accuracy.OutOfControl){
+    if (movement_accuracy = accuracy.Modern){
         var dir, gethsp, getvsp
         dir = point_direction(0, 0, hinput, vinput)
         gethsp = lengthdir_x(getspd, dir)

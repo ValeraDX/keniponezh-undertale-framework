@@ -15,9 +15,9 @@ sprite_index = spr_frisk_hitbox //this is to set FRISK'S HITBOX!!!
 
 enum accuracy{
     Undertale,
-    OutOfControl
+    Modern
 }
-movement_accuracy = accuracy.Undertale
+movement_accuracy = accuracy.Modern
 
 disable_input = false
 
