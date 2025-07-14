@@ -1,12 +1,13 @@
 hsp = 0;
 vsp = 0;
 getspd = 3;
-walkspd = 3
+walkspd = 3;
 runtimer = 0;
 
 animdir = 0 
 animation = spr_horse
 frame = 0
+animarr = []
 
 cam_x = x
 cam_y = y
